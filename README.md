@@ -10,11 +10,15 @@
 </p>
 
 <p align="center">
+  <strong><a href="https://krmaazha.github.io/BestKeptSecrets/website/">🌐 Visit the Interactive Website</a></strong>
+</p>
+
+<p align="center">
   <a href="#-how-to-use-this-list"><img src="https://img.shields.io/badge/Tools-200%2B-blueviolet?style=for-the-badge" alt="Tools"></a>
-  <a href="https://github.com/your-username/BestKeptSecrets/stargazers"><img src="https://img.shields.io/github/stars/your-username/BestKeptSecrets?style=for-the-badge&color=gold" alt="Stars"></a>
-  <a href="https://github.com/your-username/BestKeptSecrets/network/members"><img src="https://img.shields.io/github/forks/your-username/BestKeptSecrets?style=for-the-badge&color=cyan" alt="Forks"></a>
+  <a href="https://github.com/krmaazha/BestKeptSecrets/stargazers"><img src="https://img.shields.io/github/stars/krmaazha/BestKeptSecrets?style=for-the-badge&color=gold" alt="Stars"></a>
+  <a href="https://github.com/krmaazha/BestKeptSecrets/network/members"><img src="https://img.shields.io/github/forks/krmaazha/BestKeptSecrets?style=for-the-badge&color=cyan" alt="Forks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green?style=for-the-badge" alt="License"></a>
-  <a href="https://github.com/your-username/BestKeptSecrets/commits"><img src="https://img.shields.io/github/last-commit/your-username/BestKeptSecrets?style=for-the-badge&color=orange" alt="Last Commit"></a>
+  <a href="https://github.com/krmaazha/BestKeptSecrets/commits"><img src="https://img.shields.io/github/last-commit/krmaazha/BestKeptSecrets?style=for-the-badge&color=orange" alt="Last Commit"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome"></a>
 </p>
 
@@ -1148,7 +1152,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions and quality sta
 
 If you find this useful, please consider giving it a star! It helps others discover this resource.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=your-username/BestKeptSecrets&type=Date)](https://star-history.com/#your-username/BestKeptSecrets&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=krmaazha/BestKeptSecrets&type=Date)](https://star-history.com/#krmaazha/BestKeptSecrets&Date)
 
 ---
 
