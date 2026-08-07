@@ -1,0 +1,31 @@
+name: Report a Broken Link
+description: Report a link that is no longer working or has changed
+title: "[Broken Link]: "
+labels: ["bug", "broken-link"]
+assignees:
+  - ""
+body:
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      description: The name of the tool with the broken link.
+      placeholder: e.g., ToolName
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Which category is this tool in?
+      placeholder: e.g., Web & Networking
+    validations:
+      required: true
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: What is wrong with the link?
+      description: Does it 404? Did the domain change? Did the tool shut down?
+      placeholder: The website now redirects to a spam domain. The new domain is...
+    validations:
+      required: true

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Kept Secrets - Digital Tools Reference Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    
+    <div class="particles" id="particles"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glow-text">Best Kept Secrets</h1>
+            <p class="subtitle">The Ultimate Digital Tools Reference Hub</p>
+            <p class="description">Discover, evaluate, and use the best tools across AI, development, design, security, and more. Featuring 200+ curated tools with security ratings and practical use cases.</p>
+            
+            <div class="search-container">
+                <i data-lucide="search" class="search-icon"></i>
+                <input type="text" id="searchInput" placeholder="Search for tools, categories, or keywords..." autocomplete="off">
+            </div>
+
+            <div class="stats">
+                <div class="stat-badge"><i data-lucide="layers"></i> <span id="toolCount">200+</span> Tools</div>
+                <div class="stat-badge"><i data-lucide="shield-check"></i> Security Rated</div>
+                <a href="https://github.com/your-username/BestKeptSecrets" target="_blank" class="github-btn">
+                    <i data-lucide="github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <div class="filters-container">
+            <h3>Categories</h3>
+            <div class="categories" id="categoryFilters">
+                <!-- Populated by JS -->
+                <button class="filter-btn active" data-filter="all">All Tools</button>
+            </div>
+            
+            <div class="legend">
+                <span class="legend-item"><span class="icon safe">🟢</span> Safe</span>
+                <span class="legend-item"><span class="icon caution">🟡</span> Caution</span>
+                <span class="legend-item"><span class="icon warning">🔴</span> Warning</span>
+            </div>
+        </div>
+
+        <div id="loading" class="loading-state">
+            <i data-lucide="loader-2" class="spinner"></i> Loading tools from GitHub...
+        </div>
+
+        <div class="tools-grid" id="toolsGrid">
+            <!-- Populated by JS -->
+        </div>
+
+        <div id="noResults" class="no-results hidden">
+            <i data-lucide="search-x"></i>
+            <h3>No tools found</h3>
+            <p>Try adjusting your search terms or category filters.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Built with ❤️ for the developer community</p>
+        <p>Data sourced directly from the <a href="https://github.com/your-username/BestKeptSecrets" target="_blank">BestKeptSecrets</a> GitHub repository.</p>
+    </footer>
+
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+        <i data-lucide="sun" class="sun-icon"></i>
+        <i data-lucide="moon" class="moon-icon"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

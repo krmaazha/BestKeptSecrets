@@ -1,0 +1,98 @@
+name: Suggest a new tool
+description: Propose a new tool to be added to the list
+title: "[Suggestion]: "
+labels: ["enhancement", "new-tool"]
+assignees:
+  - ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new tool! Please make sure you've searched the repository to ensure it hasn't already been added.
+  - type: input
+    id: tool_name
+    attributes:
+      label: Tool Name
+      description: What is the name of the tool?
+      placeholder: e.g., Obsidian
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: URL to the official website or repository.
+      placeholder: e.g., https://obsidian.md
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this tool belong in?
+      options:
+        - "🤖 AI & Machine Learning"
+        - "💻 Development Tools"
+        - "🎨 Design & Creative"
+        - "🔒 Security & Privacy"
+        - "📚 Education & Learning"
+        - "⚡ Productivity & Workflow"
+        - "🌐 Web & Networking"
+        - "📊 Data & Analytics"
+        - "🏗️ DevOps & Infrastructure"
+        - "📱 Mobile & Cross-Platform"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One clear, concise sentence explaining what it does.
+      placeholder: Markdown-based knowledge base with bidirectional linking.
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Pricing / Type Tags
+      description: e.g., Free, Freemium, Paid, Open Source, Self-Hosted (comma separated)
+      placeholder: Freemium, Local
+    validations:
+      required: true
+  - type: dropdown
+    id: security_rating
+    attributes:
+      label: Security Rating
+      description: Select the appropriate security rating.
+      options:
+        - "🟢 Safe (Open source, self-hostable, minimal data concerns)"
+        - "🟡 Caution (Cloud-based, review privacy policy)"
+        - "🔴 Warning (Known data collection, evaluate carefully)"
+    validations:
+      required: true
+  - type: textarea
+    id: security_note
+    attributes:
+      label: Security Note
+      description: Brief explanation of the security rating.
+      placeholder: Notes stored as local Markdown files. Sync is paid but optional.
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Practical Use Case
+      description: When and why would someone use this tool?
+      placeholder: Building a personal knowledge base / second brain with interconnected notes and ideas.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklists
+    attributes:
+      label: Final Checklist
+      description: Please verify the following before submitting.
+      options:
+        - label: I have read the contribution guidelines.
+          required: true
+        - label: This tool is not already on the list.
+          required: true
