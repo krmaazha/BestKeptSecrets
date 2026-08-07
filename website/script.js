@@ -21,35 +21,43 @@ themeToggle.addEventListener('click', () => {
     }
 });
 
-// Particle Effect
+// Brutalist ASCII Rain Effect
 function createParticles() {
     const container = document.getElementById('particles');
-    const particleCount = 20;
+    container.style.position = 'fixed';
+    container.style.top = '0';
+    container.style.left = '0';
+    container.style.width = '100vw';
+    container.style.height = '100vh';
+    container.style.pointerEvents = 'none';
+    container.style.zIndex = '-1';
+    container.style.overflow = 'hidden';
+    
+    const chars = ['+', '-', '*', '>', '<', '/', '1', '0', '!', '#', '&', '%'];
+    const particleCount = 40;
 
     for (let i = 0; i < particleCount; i++) {
         const particle = document.createElement('div');
         particle.style.position = 'absolute';
-        particle.style.width = Math.random() * 5 + 2 + 'px';
-        particle.style.height = particle.style.width;
-        particle.style.background = 'var(--accent-color)';
-        particle.style.borderRadius = '50%';
-        particle.style.opacity = Math.random() * 0.5 + 0.1;
+        particle.innerText = chars[Math.floor(Math.random() * chars.length)];
+        particle.style.color = 'var(--text-primary)';
+        particle.style.opacity = Math.random() * 0.2 + 0.05;
+        particle.style.fontSize = (Math.random() * 20 + 10) + 'px';
+        particle.style.fontWeight = 'bold';
         particle.style.left = Math.random() * 100 + 'vw';
-        particle.style.top = Math.random() * 100 + 'vh';
-        particle.style.animation = `float ${Math.random() * 10 + 10}s linear infinite`;
+        particle.style.top = -50 + 'px';
+        particle.style.animation = `fall ${Math.random() * 10 + 5}s linear infinite`;
+        particle.style.animationDelay = `${Math.random() * 5}s`;
         
         container.appendChild(particle);
     }
 }
 
-// Add keyframes for particles dynamically
 const style = document.createElement('style');
 style.innerHTML = `
-@keyframes float {
-    0% { transform: translateY(0) translateX(0); }
-    33% { transform: translateY(-20px) translateX(20px); }
-    66% { transform: translateY(20px) translateX(-20px); }
-    100% { transform: translateY(0) translateX(0); }
+@keyframes fall {
+    0% { transform: translateY(-50px) rotate(0deg); }
+    100% { transform: translateY(110vh) rotate(360deg); }
 }
 `;
 document.head.appendChild(style);

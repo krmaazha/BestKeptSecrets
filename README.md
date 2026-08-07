@@ -141,6 +141,18 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
   > 💡 **Use case:** Generating deep market research and alternative comparisons automatically through an agent.
 
+- 🟢 [**Project Scaffold Skill**](https://skills.sh) — Instantly sets up complex project architectures directly via your AI agent.
+  `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
+  > 💡 **Use case:** Let your AI agent build complete, production-ready boilerplates for Next.js, Django, or Rust in seconds.
+
+- 🟢 [**Security Audit Agent Skill**](https://skills.sh) — Runs real-time vulnerability scans and patches them automatically.
+  `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
+  > 💡 **Use case:** Continuously monitoring codebase dependencies and generating secure PRs autonomously.
+
+- 🟢 [**Auto-Documentation Skill**](https://skills.sh) — Automatically generates and updates `README.md` and inline docs as code changes.
+  `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
+  > 💡 **Use case:** Keeping documentation perfectly in sync with the codebase without developer intervention.
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
