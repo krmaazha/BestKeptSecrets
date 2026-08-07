@@ -125,6 +125,18 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Open registry. Extends capabilities of agents like Claude Code, Cursor, etc.*
   > 💡 **Use case:** Installing reusable, community-vetted skills (like browser automation or framework standards) to bridge the procedural gap for AI agents.
 
+- 🟢 [**Codebase Audit Skill**](https://skills.sh) — Automated architecture, security, and quality analysis for agent refactoring.
+  `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
+  > 💡 **Use case:** Guiding AI agents during complex refactoring by providing comprehensive codebase insights.
+
+- 🟢 [**Task Notification Skill**](https://skills.sh) — Native desktop and sound alerts for autonomous agent tasks.
+  `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
+  > 💡 **Use case:** Notifying developers when an AI agent has completed a long-running, asynchronous task.
+
+- 🟢 [**Grounded Research Skill**](https://skills.sh) — Automates competitive research with real-world citations and pricing.
+  `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
+  > 💡 **Use case:** Generating deep market research and alternative comparisons automatically through an agent.
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
