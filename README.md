@@ -153,6 +153,14 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Requires agent platforms supporting skills.sh.*
   > 💡 **Use case:** Keeping documentation perfectly in sync with the codebase without developer intervention.
 
+- 🟢 [**open-ontologies**](https://github.com/fabio-rovai/open-ontologies) — AI-native ontology engine: a Rust MCP server with tools for building, validating, querying, and reasoning over RDF/OWL ontologies. In-memory Oxigraph triple store, native OWL2-DL tableaux reasoner, SHACL validation, SPARQL, versioning. Single binary, no JVM.
+  `Free` `Open Source` · ✅ *Single binary, fully local. MIT licensed. 226 stars.*
+  > 💡 **Use case:** Vocabulary-gating generated data against your ontology — catches invented class/property names (e.g. `priceBracket` vs declared `priceRange`) that SHACL misses, before they enter your triple store.
+
+- 🟢 [**NVIDIA NOOA**](https://github.com/NVIDIA-NeMo/labs-OO-Agents) — Framework for building AI agents as Python objects (methods = actions, fields = state, docstrings = prompts). Includes runtime execution, validation, sandbox, AST checks, and observability.
+  `Free` `Open Source` · ✅ *Open source framework with built-in security layer (sandbox, AST checks).*
+  > 💡 **Use case:** Building AI agents that reason through computation rather than text, allowing them to be tested, traced, refactored, and version-controlled like normal software.
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
@@ -914,6 +922,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` `Self-Hosted` · ✅ *Fully self-hosted. Connects to most SQL databases.*
   > 💡 **Use case:** Creating interactive dashboards and visualizations from SQL databases without vendor lock-in.
 
+- 🟢 [**Microsoft Rayfin (Data App)**](https://github.com/microsoft/rayfin) — Scaffold a TypeScript frontend over a Power BI semantic model to build fully interactive web reports.
+  `Free` `Open Source` · ✅ *Open source template from Microsoft for building custom data apps.*
+  > 💡 **Use case:** Distributing interactive Power BI reports to large consumer audiences using Fabric capacity, bypassing per-user Power BI Pro license costs.
+
 - 🟡 [**Metabase**](https://metabase.com) — Open-source BI tool that lets anyone on your team ask questions and learn from data.
   `Freemium` `Open Source` `Self-Hosted` · ✅ *Self-hostable. Free open-source edition.*
   > 💡 **Use case:** Enabling non-technical team members to query databases and build dashboards without writing SQL.
@@ -969,6 +981,10 @@ Every tool in this list follows a consistent format:
 - 🟢 [**Meltano**](https://meltano.com) — Open-source DataOps platform for ELT pipelines using Singer taps and targets.
   `Free` `Open Source` · ✅ *Fully open source. CLI-based.*
   > 💡 **Use case:** Building and managing ELT pipelines with version-controlled, reproducible configurations.
+
+- 🟢 [**SA Weather ETL Pipeline**](https://github.com/Bongane0606/sa-weather-etl-pipeline) — A robust ETL pipeline demonstrating production data engineering practices: structured logging, validation, and containerization.
+  `Free` `Open Source` · ✅ *Open source portfolio project.*
+  > 💡 **Use case:** Reference architecture for building reliable Python ETL pipelines that extract, transform, validate, and load data into PostgreSQL using Docker.
 
 <p align="right"><a href="#-how-to-use-this-list">⬆ Back to top</a></p>
 
