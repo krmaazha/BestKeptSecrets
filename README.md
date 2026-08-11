@@ -2167,3 +2167,63 @@ This section contains a massive backlog of resources currently being categorized
   `Uncategorized` · ⚠️ *Review before use.*
   > 💡 **Use case:** Help learners discover, compare, and choose the best online courses.
 
+- 🟡 [**Crush**](https://github.com/charmbracelet/crush) — AI-powered terminal assistant from Charmbracelet. Built with Go and the Charm ecosystem. Enables natural language interactions with the terminal—users can ask Crush to perform tasks like "install Node.js" or "find all large files" and it executes the appropriate shell commands.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Provide a natural language interface for the command line, making terminal operations accessible to beginners and accelerating workflows for experienced developers.
+
+- 🟡 [**browser-use**](https://github.com/browser-use/browser-use) — Open-source Python library that enables AI agents to interact with web browsers—navigate, click, fill forms, extract data, and perform complex multi-step tasks. Integrates with LangChain, OpenAI, Anthropic, and other LLM providers.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable developers to build AI agents that can automate web interactions, perform research, fill forms, extract data, and execute browser-based workflows programmatically.
+
+- 🟡 [**Agent-S**](https://github.com/ValeriyIvanyshyn/Agent-S) — AI agent framework designed for building autonomous agents with capabilities including planning, memory, tool use, and multi-agent collaboration. Focus on production-ready, scalable agent deployment.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Provide a robust framework for building, deploying, and managing autonomous AI agents for complex tasks across multiple domains.
+
+- 🟡 [**graphiti (Zep Memory)**](https://github.com/getzep/graphiti) — Graph-based memory system for AI agents, part of the Zep platform. Enables AI agents to build and query knowledge graphs of interactions, conversations, and context. Supports temporal knowledge, entity resolution, and semantic retrieval.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Give AI agents persistent, graph-structured long-term memory for more intelligent and contextually aware conversations and task execution.
+
+- 🟢 [**xan (CSV Toolkit)**](https://github.com/medialab/xan) — Toolkit for exploring, analyzing, and cleaning CSV data from the command line. Built by medialab (Sciences Po). Written in Rust for high performance. Provides fast, efficient operations for filtering, transforming, joining, and summarizing CSV files.
+  `Free` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable data scientists, analysts, and developers to work with CSV data quickly and efficiently from the terminal without loading into a spreadsheet or database.
+
+- 🟡 [**n8n**](https://github.com/n8n-io/n8n) — Open-source, no-code workflow automation platform (self-hostable alternative to Zapier/Make). Supports 400+ integrations, visual workflow builder, AI agents, conditional logic, scheduling, webhooks, and error handling. Fair-code license.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable users to build automated workflows connecting apps, services, and APIs without writing code, with full control over data and hosting.
+
+- 🟡 [**rendergit**](https://github.com/karpathy/rendergit) — Created by Andrej Karpathy; generates visual, rendered representations of Git repositories. Creates diagrams, visualizations, or documentation from repo structure. Useful for AI training data preparation and codebase exploration.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Provide tools to visualize, render, or document Git repositories—useful for AI training data generation, codebase exploration, and educational purposes.
+
+- 🟡 [**liam (ER Diagrams)**](https://github.com/liam-hq/liam) — Database documentation tool that automatically generates entity-relationship (ER) diagrams from SQL databases. Helps teams understand, document, and visualize database schemas. Supports multiple database types (PostgreSQL, MySQL, etc.).
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable database administrators and developers to quickly generate visual documentation of database schemas for onboarding, auditing, and maintenance.
+
+- 🟡 [**mcp-link**](https://github.com/mcp-link/mcp-link) — Tool to connect any API to AI agents using the Model Context Protocol (MCP). Allows agents to access external data, services, and tools through a standardized interface. Extends AI capabilities beyond model knowledge into live, dynamic data.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable AI agents to interact with any REST API or web service, bridging the gap between AI and real-world data/tools.
+
+- 🟡 [**toolhive**](https://github.com/toolhive/toolhive) — MCP (Model Context Protocol) tool management platform. Provides a registry and orchestration layer for AI agent tools, enabling discovery, versioning, and access control for agent capabilities.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Provide a centralized platform for managing, discovering, and connecting tools to AI agents—turning agents into powerful, extensible assistants.
+
+- 🟡 [**kagent (K8s AI)**](https://github.com/kagent-dev/kagent) — Kubernetes-native AI agent that runs within a cluster and provides intelligent automation, monitoring, and problem-solving for Kubernetes environments. Can analyze cluster state, suggest optimizations, and troubleshoot issues.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable Kubernetes administrators and DevOps teams to automate cluster management, reduce manual effort, and gain intelligent insights into cluster health and performance.
+
+- 🟢 [**Tabby (Self-hosted Copilot)**](https://github.com/TabbyML/tabby) — Self-hosted, open-source AI code assistant that can run entirely on-premises or in a private cloud. Provides code completions, suggestions, and chat interactions. Supports local models (GGUF, etc.) and optional cloud models. Written in Rust.
+  `Free` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable organizations to provide AI-powered code assistance to developers while maintaining complete control over data and privacy.
+
+- 🟡 [**Kiro (Agentic IDE)**](https://github.com/kiro-ide/kiro) — Agentic IDE that embeds AI agents into the development workflow. Agents can understand codebases, suggest refactors, automate repetitive tasks, debug, and assist with architecture decisions.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Provide developers with AI agents that actively assist in the software development lifecycle—writing, reviewing, debugging, and refactoring code within their familiar IDE environment.
+
+- 🟡 [**MoneyPrinter V2**](https://github.com/FujiwaraChoki/MoneyPrinterV2) — Automated content creation and social media posting system. Creates and publishes videos, blog posts, or social media content automatically using AI. Designed for affiliate marketing and content creation at scale.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable content creators and marketers to automate content production and distribution, freeing time while maintaining a consistent online presence.
+
+- 🟡 [**sequor (YAML API)**](https://github.com/sequor-io/sequor) — API integration builder and orchestrator that simplifies connecting multiple APIs and services. Uses YAML-based configuration to define integration flows, transformations, and data routing.
+  `Uncategorized` · ⚠️ *Review before use.*
+  > 💡 **Use case:** Enable developers and integration specialists to build and manage complex API integrations quickly and maintainably without extensive custom code.
+
