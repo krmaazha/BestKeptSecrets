@@ -161,6 +161,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Open source framework with built-in security layer (sandbox, AST checks).*
   > 💡 **Use case:** Building AI agents that reason through computation rather than text, allowing them to be tested, traced, refactored, and version-controlled like normal software.
 
+- 🟢 [**Headroom**](https://github.com/chopratejas/headroom) — Open-source context optimization layer for LLM applications that compresses tool outputs, logs, RAG chunks, and history with reversible safety nets.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Fully local-first context compression. Data stays on-device unless using cloud backends.*
+  > 💡 **Use case:** Reducing LLM token consumption by 60–95% across agentic workflows, coding assistants, and multi-turn conversations without sacrificing accuracy.
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
