@@ -239,6 +239,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Fully local when self-hosted. No data sent anywhere.*
   > 💡 **Use case:** Transcribing meetings, podcasts, and interviews locally with support for 99+ languages.
 
+- 🟢 [**MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) — AI-powered short-video generator that turns a topic into a finished HD video with script, B-roll, voiceover, subtitles, and music — fully automated.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Fully local pipeline. External calls only if you choose cloud LLM/TTS providers; Edge TTS + Pexels free tier = zero API cost.*
+  > 💡 **Use case:** Batch-generating short-form content for TikTok, YouTube Shorts, and Instagram Reels without manual editing — ideal for content creators and educators.
+
 - 🔴 [**Play.ht**](https://play.ht) — Historical AI voice generation platform (text-to-speech, voice cloning).
   `Deprecated` · ⚠️ *Acquired by Meta in 2025 and commercial platform discontinued. Don't rely on it for new projects.*
   > 💡 **Use case:** Currently deprecated. Use alternatives like ElevenLabs or Speechify instead.
