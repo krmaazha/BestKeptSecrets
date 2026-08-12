@@ -191,6 +191,10 @@ Every tool in this list follows a consistent format:
   `Freemium` · ⚠️ *Code processed through AWS. Can opt out of data sharing for model improvement.*
   > 💡 **Use case:** AWS-heavy teams wanting AI assistance with automatic detection of code similar to open-source training data.
 
+- 🟢 [**free-claude-code**](https://github.com/Alishahryar1/free-claude-code) — Proxy routing tool that routes Claude Code and Codex CLI traffic through free backends.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Local proxy tool that routes CLI requests to free model backends.*
+  > 💡 **Use case:** Running Claude Code and Codex terminal workflows using free backends like OpenRouter free models, NVIDIA NIM, or local Ollama.
+
 ### AI Image Generation
 
 - 🟡 [**Midjourney**](https://midjourney.com) — Industry-leading AI image generator known for stunning artistic quality and photorealism.
@@ -386,6 +390,22 @@ Every tool in this list follows a consistent format:
 - 🟢 [**httpie**](https://httpie.io) — Modern, user-friendly HTTP client for the command line and desktop with intuitive syntax.
   `Freemium` `Open Source` · ✅ *CLI version is fully local and open source.*
   > 💡 **Use case:** Developers who want `curl` but human-friendly — perfect for quick API debugging.
+
+- 🟢 [**awesome-free-llm-apis**](https://github.com/mnfst/awesome-free-llm-apis) — Curated directory of legitimate permanent free LLM API tiers with OpenAI SDK compatibility and rate limits.
+  `Free` `Open Source` · ✅ *Public index of free LLM API endpoints and limits.*
+  > 💡 **Use case:** Finding free AI model provider endpoints (Cohere, Groq, SambaNova, SiliconFlow) without entering credit card details.
+
+- 🟢 [**public-apis**](https://github.com/public-apis/public-apis) — The definitive collective list of free public APIs organized by category with authentication requirements listed.
+  `Free` `Open Source` · ✅ *Open community index of public APIs.*
+  > 💡 **Use case:** Discovering free APIs for weather, finance, geocoding, and data analysis when prototyping web applications.
+
+- 🟢 [**public-api-lists**](https://github.com/public-api-lists/public-api-lists) — Curated collection of free public APIs that require no authentication or API keys.
+  `Free` `Open Source` · ✅ *Index of keyless public APIs.*
+  > 💡 **Use case:** Rapid prototyping and testing of applications using free data sources without signing up or managing API keys.
+
+- 🟢 [**free-llm-api-resources**](https://github.com/cheahjs/free-llm-api-resources) — Resource guide covering permanent free tiers and trial credit allocations for AI language models.
+  `Free` `Open Source` · ✅ *Curated list of free LLM API tiers and provider credits.*
+  > 💡 **Use case:** Exploring free LLM options and starter credits across cloud platforms for AI development.
 
 ### Databases & Data Tools
 
