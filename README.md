@@ -994,6 +994,36 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Open source portfolio project.*
   > 💡 **Use case:** Reference architecture for building reliable Python ETL pipelines that extract, transform, validate, and load data into PostgreSQL using Docker.
 
+### Open Datasets & Benchmarks
+
+- 🟢 [**Medical-Imaging-Datasets**](https://github.com/m-aryayi/Medical-Imaging-Datasets) — Curated collection of 200+ publicly available medical imaging datasets organized by anatomy, modality, and licensing terms.
+  `Free` `Open Source` · ✅ *Public index of open-access medical imaging datasets across CT, MRI, X-ray, ultrasound, and PET.*
+  > 💡 **Use case:** Accelerating medical AI research by quickly finding relevant medical imaging datasets with direct download links.
+
+- 🟢 [**SAT-DS**](https://github.com/zhaoziheng/SAT-DS) — Medical data collection aggregating 72+ public segmentation datasets into a unified benchmark with 22K+ 3D images and 302K masks.
+  `Free` `Open Source` · ✅ *Unified open dataset for 3D medical image segmentation across 8 body regions.*
+  > 💡 **Use case:** Training and benchmarking medical foundation models without spending months on data collection and preprocessing.
+
+- 🟢 [**LexGLUE**](https://github.com/coastalcph/lex-glue) — Benchmark dataset for legal language understanding combining 7 diverse legal NLP tasks in English.
+  `Free` `Open Source` · ✅ *Standard legal NLP benchmark for evaluating Legal-BERT and domain-specific LLMs.*
+  > 💡 **Use case:** Evaluating and fine-tuning language models on complex legal tasks such as court judgment prediction and contract clause classification.
+
+- 🟢 [**DailyDVS-200**](https://github.com/QiWang233/DailyDVS-200) — Comprehensive benchmark dataset for event-camera action recognition with 200 action categories and 22,000+ event sequences.
+  `Free` `Open Source` · ✅ *Neuromorphic event-camera benchmark published at ECCV 2024.*
+  > 💡 **Use case:** Training low-latency, event-driven computer vision models for human action recognition using event cameras.
+
+- 🟢 [**3D_Lane_Synthetic_Dataset**](https://github.com/yuliangguo/3D_Lane_Synthetic_Dataset) — Synthetic dataset for 3D lane detection in autonomous driving with ground-truth lane lines and evaluation scripts.
+  `Free` `Open Source` · ✅ *Controlled synthetic benchmark with detailed camera parameters and range-based evaluation.*
+  > 💡 **Use case:** Benchmarking autonomous driving perception algorithms on 3D lane detection across standard, rare, and illumination-change splits.
+
+- 🟢 [**RealisticTabularDataSets**](https://github.com/lemire/RealisticTabularDataSets) — Collection of real-world, messy tabular datasets in CSV format for testing data pipelines and algorithms.
+  `Free` `Open Source` · ✅ *Real-world test tables curated by performance researcher Daniel Lemire.*
+  > 💡 **Use case:** Testing CSV parsers, data cleaning pipelines, and tabular machine learning models on realistic, non-toy data.
+
+- 🟢 [**ATRNet-STAR**](https://github.com/waterdisappear/ATRNet-STAR) — Comprehensive SAR vehicle recognition dataset with ~200,000 target images across 40 vehicle types and 5 scenes.
+  `Free` `Open Source` · ✅ *Quad-polarization synthetic aperture radar (SAR) dataset published in IEEE TPAMI 2026.*
+  > 💡 **Use case:** Developing and benchmarking deep learning models for satellite imaging, remote sensing, and SAR target recognition.
+
 <p align="right"><a href="#-how-to-use-this-list">⬆ Back to top</a></p>
 
 ---
