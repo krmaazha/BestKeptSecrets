@@ -165,6 +165,14 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` `Self-Hosted` · ✅ *Fully local-first context compression. Data stays on-device unless using cloud backends.*
   > 💡 **Use case:** Reducing LLM token consumption by 60–95% across agentic workflows, coding assistants, and multi-turn conversations without sacrificing accuracy.
 
+- 🟢 [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) — Curated collection of 100+ production-ready AI applications, multi-agent systems, and RAG starter templates across major LLM providers.
+  `Free` `Open Source` · ✅ *Open-source code cookbook; runs locally using your own model API keys.*
+  > 💡 **Use case:** Rapidly building and prototyping AI applications, agent teams, RAG pipelines, and voice bots with ready-to-run code.
+
+- 🟡 [**SkillsMP**](https://skillsmp.com) — Searchable directory and registry of pre-built AI agent skills and MCP extensions for AI coding assistants like Claude Code and Cursor.
+  `Free` `Freemium` · ⚠️ *Indexes third-party community skills; review skill source code and tool permissions before running locally.*
+  > 💡 **Use case:** Discovering and installing ready-made agent skills (git helpers, file managers, API tools) to extend AI assistant capabilities without coding them from scratch.
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
@@ -225,6 +233,10 @@ Every tool in this list follows a consistent format:
   `Freemium` · ⚠️ *Cloud-based. Images may be publicly visible on free tier.*
   > 💡 **Use case:** Creating logos, posters, and designs where readable text within images is critical.
 
+- 🟢 [**This Person Does Not Exist**](https://thispersondoesnotexist.com) — AI-powered synthetic face generator that creates unique, photorealistic human faces on every refresh using StyleGAN.
+  `Free` · ✅ *Client-facing image generator. No account, registration, or personal data collected.*
+  > 💡 **Use case:** Sourcing realistic dummy avatar photos and personas for UI/UX mockups, test data seeding, and design prototypes without licensing or privacy concerns.
+
 ### AI Audio & Video
 
 - 🟡 [**ElevenLabs**](https://elevenlabs.io) — State-of-the-art AI voice synthesis with voice cloning and multilingual support.
@@ -276,6 +288,10 @@ Every tool in this list follows a consistent format:
 - 🟡 [**Copy.ai**](https://copy.ai) — AI copywriting tool for generating marketing copy, product descriptions, and social posts.
   `Freemium` · ⚠️ *Cloud-based. Content may be used to improve models on free tier.*
   > 💡 **Use case:** Small businesses and solopreneurs who need professional copy without hiring a writer.
+
+- 🟢 [**PixelRAG**](https://github.com/StarTrail-org/PixelRAG) — Open-source visual document retrieval system by UC Berkeley Sky Lab that renders pages into screenshot tiles for multimodal RAG.
+  `Free` `Open Source` · ✅ *Fully open-source Apache-2.0 visual retrieval engine. Can run locally with self-hosted FAISS vector indices.*
+  > 💡 **Use case:** Empowering vision-language models to retrieve information from visually complex documents, tables, charts, and PDF layouts without plain-text parsing loss.
 
 <p align="right"><a href="#-how-to-use-this-list">⬆ Back to top</a></p>
 
@@ -537,10 +553,18 @@ Every tool in this list follows a consistent format:
   `Free` · ⚠️ *Numbers are public, so anyone can see the received SMS. Do not use for sensitive accounts.*
   > 💡 **Use case:** Protecting your privacy by enabling account verification (e.g., WhatsApp, Telegram) without using a personal phone number.
 
+- 🟢 [**Guerrilla Mail**](https://www.guerrillamail.com) — Disposable temporary email service providing a throwaway inbox that auto-deletes messages after 60 minutes.
+  `Free` `Open Source` · ✅ *No registration required. Inboxes are temporary and messages are permanently deleted after 1 hour. Do not use for sensitive long-term accounts.*
+  > 💡 **Use case:** Receiving OTPs, verification emails, and download links for one-time registrations without disclosing your real email.
+
 > [!WARNING]
 > **Security tools are powerful and must be used ethically and legally.** Only use penetration testing and scanning tools on systems you own or have explicit written authorization to test. Unauthorized use is illegal in most jurisdictions.
 
 ### Penetration Testing & Scanning
+
+- 🟢 [**Have I Been Pwned**](https://haveibeenpwned.com) — Free data breach search engine and notification service that checks if your email or passwords have been exposed in public breaches.
+  `Free` `Freemium` · ✅ *Highly reputable security resource by Troy Hunt; password lookups use k-anonymity hashing so raw credentials never leave your browser.*
+  > 💡 **Use case:** Checking if personal or organizational accounts, passwords, or domains have been leaked in historical data breaches.
 
 - 🟢 [**Burp Suite Community**](https://portswigger.net/burp) — The industry-standard web security testing platform with proxy, scanner, and intruder tools.
   `Freemium` `Self-Hosted` · ✅ *Runs locally. Community edition is free.*
@@ -658,6 +682,14 @@ Every tool in this list follows a consistent format:
   `Freemium` · ⚠️ *Cloud-based platform. Integrates with LMS like Google Classroom and Moodle.*
   > 💡 **Use case:** Empowering educators to create engaging, interactive learning activities (quizzes, crosswords, etc.) that increase student motivation.
 
+- 🟢 [**PBS KIDS**](https://pbskids.org) — Free public educational media platform featuring hundreds of curriculum-based interactive learning games and videos for foundational learning.
+  `Free` · ✅ *Safe, child-friendly non-profit educational platform adhering to strict COPPA privacy standards with no commercial advertising.*
+  > 💡 **Use case:** Engaging elementary students and young learners with interactive games and educational media covering math, literacy, science, and social-emotional development.
+
+- 🟡 [**Hand2mind**](https://www.hand2mind.com) — Hands-on learning resource hub offering interactive lessons, downloadable activities, and STEM/math manipulatives.
+  `Freemium` · ⚠️ *Commercial educational platform; provides free downloadable lesson activities alongside physical manipulative kits.*
+  > 💡 **Use case:** Sourcing interactive STEM and math learning resources, manipulatives, and hands-on activities for Pre-K through Grade 8 education.
+
 ### Interactive Coding Platforms
 
 - 🟢 [**Learn Git Branching**](https://learngitbranching.js.org) — Open-source interactive tutorial that teaches Git concepts through visual exercises and immediate command feedback.
@@ -709,6 +741,14 @@ Every tool in this list follows a consistent format:
 - 🟢 [**OverAPI**](https://overapi.com) — Visual cheat sheets for most popular programming languages and frameworks.
   `Free` · ⚠️ *Web-based. Minimal tracking.*
   > 💡 **Use case:** Having a visual, printable quick-reference for a language's standard library and syntax.
+
+- 🟢 [**Open Library**](https://openlibrary.org) — Non-profit open-source book catalog and lending library with millions of digitized books, public domain texts, and open metadata APIs.
+  `Free` `Open Source` · ✅ *Non-profit initiative by the Internet Archive. Completely free and ad-free with public open APIs.*
+  > 💡 **Use case:** Borrowing and reading digitized books online, looking up bibliographic and ISBN data via APIs, and accessing open educational knowledge.
+
+- 🟢 [**resourcify.me**](https://github.com/ujjwalchadha8/resourcify.me) — Open-source developer education platform compiling structured roadmaps, tutorials, and curated CS learning resources.
+  `Free` `Open Source` · ✅ *Community-curated open-source repository with zero data tracking.*
+  > 💡 **Use case:** Discovering structured web development roadmaps, free programming books, cheat sheets, and curated computer science resources in one organized place.
 
 ### Video & Course Platforms
 
@@ -878,6 +918,22 @@ Every tool in this list follows a consistent format:
   `Free` · ⚠️ *Directory contains a mix of legal and third-party/unofficial sites. Exercise caution and use ad-blockers when visiting unofficial links.*
   > 💡 **Use case:** Finding a reliable source to stream specific movies, shows, or live sports when you don't know which platform holds the rights.
 
+- 🟢 [**Wayback Machine**](https://archive.org/web/) — Digital archive of the World Wide Web preserving over 860 billion historical webpage snapshots dating back to 1996.
+  `Free` `Open Source` · ✅ *Non-profit digital library operated by the Internet Archive. Ad-free, public interest archive.*
+  > 💡 **Use case:** Accessing dead or modified web pages, retrieving historical records, investigating domain history, and citing permanent sources.
+
+- 🟢 [**Radio Garden**](https://radio.garden) — Interactive 3D globe visualization allowing users to discover and listen to thousands of live radio broadcasts across the planet.
+  `Free` · ✅ *Client-side WebGL 3D globe interface. Connects directly to public radio station streams without requiring an account.*
+  > 💡 **Use case:** Exploring global music cultures, listening to local international news, and discovering independent radio stations worldwide.
+
+- 🟡 [**Flightradar24**](https://www.flightradar24.com) — Real-time global flight tracker displaying live aircraft traffic, ADS-B telemetry, routes, and airport statistics on an interactive map.
+  `Freemium` · ⚠️ *Free tier is ad-supported and tracks public ADS-B transponder broadcast data. Advanced telemetry requires subscription.*
+  > 💡 **Use case:** Live flight tracking, checking real-time aircraft delay statuses, viewing altitude and speed telemetry, and monitoring airport traffic.
+
+- 🟡 [**EarthCam**](https://www.earthcam.com) — Global network of live streaming webcams providing real-time views, time-lapses, and high-resolution imaging of worldwide landmarks and cities.
+  `Freemium` · ⚠️ *Live feeds are ad-supported on the free web portal. Uses standard tracking cookies and video streaming CDNs.*
+  > 💡 **Use case:** Exploring live camera views of international landmarks, monitoring real-time weather and traffic, and virtual tourism.
+
 ### Hosting & Deployment
 
 - 🟡 [**Vercel**](https://vercel.com) — Frontend cloud platform with instant deployments, edge functions, and Next.js optimization.
@@ -903,6 +959,10 @@ Every tool in this list follows a consistent format:
 - 🟡 [**GitHub Pages**](https://pages.github.com) — Free static site hosting directly from your GitHub repository.
   `Free` · ⚠️ *Hosted by GitHub. Public repos only on free tier.*
   > 💡 **Use case:** Hosting project documentation, portfolios, and blogs directly from your repository.
+
+- 🟡 [**InfinityFree**](https://infinityfree.com) — Free web hosting platform providing PHP, MySQL, Apache, free SSL certificates, and custom domain support with no forced ads.
+  `Free` `Freemium` · ⚠️ *Free shared hosting environment; not suited for sensitive personal/financial data or high-traffic production workloads.*
+  > 💡 **Use case:** Hosting PHP/MySQL websites, WordPress blogs, portfolios, and testing web applications for free without forced banner ads.
 
 ### DNS & Domain Tools
 
