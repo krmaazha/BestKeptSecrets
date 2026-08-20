@@ -2,6 +2,10 @@
 .agents/
 skills/
 .gemini/
+.claude/
+.cursor/
+*.skill
+
 
 # Python
 __pycache__/

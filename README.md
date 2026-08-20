@@ -756,6 +756,10 @@ Every tool in this list follows a consistent format:
 
 ### Utilities & File Management
 
+- 🟢 [**10015.io**](https://10015.io) — All-in-one free web toolbox featuring 80+ client-side utilities for text conversion, CSS styling, image manipulation, coding, colors, and social media assets.
+  `Free` · ✅ *Client-side processing — most operations execute entirely in-browser without transmitting data.*
+  > 💡 **Use case:** One-stop utility belt for developers and designers needing quick access to JSON formatters, CSS generators (shadows, gradients, glassmorphism), regex testers, color converters, and image optimizers in a single tab.
+
 - 🟡 [**TinyWow.com**](https://tinywow.com) — Platform offering 100+ free AI-powered tools for PDF, video, image, and AI writing.
   `Freemium` · ⚠️ *Free tools are good, but paid subscriptions have documented cancellation issues. Files uploaded to cloud.*
   > 💡 **Use case:** Providing a one-stop destination for quick file editing and content improvement without installing software.
@@ -771,6 +775,10 @@ Every tool in this list follows a consistent format:
 - 🟡 [**Cobalt.tools**](https://cobalt.tools) — Open-source media downloader for videos, audio, and photos from various platforms without ads.
   `Free` `Open Source` · ⚠️ *Use official site only. Downloaders often bypass platform restrictions.*
   > 💡 **Use case:** Downloading publicly accessible media without using ad-ridden or malware-infested "free downloader" sites.
+
+- 🟡 [**SaveWeb2ZIP**](https://saveweb2zip.com/en) — Online website downloader that clones and packages any webpage or landing page into a ZIP archive with HTML, CSS, JS, fonts, and images.
+  `Free` · ⚠️ *Cloud-based scraper; processes target URLs on external servers. Avoid using with internal/private intranet pages.*
+  > 💡 **Use case:** Archiving landing page designs, backing up static web assets, or extracting frontend templates for offline study without complex scraping tools.
 
 - 🟢 [**Torlink**](https://www.npmjs.com/package/@profullstack/torlink) — Terminal-based torrent search and download tool directly connecting to networks.
   `Free` `Open Source` · ✅ *Privacy-focused design with no central server tracking.*
