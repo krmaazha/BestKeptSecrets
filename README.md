@@ -263,6 +263,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` `Self-Hosted` · ✅ *Fully local pipeline. External calls only if you choose cloud LLM/TTS providers; Edge TTS + Pexels free tier = zero API cost.*
   > 💡 **Use case:** Batch-generating short-form content for TikTok, YouTube Shorts, and Instagram Reels without manual editing — ideal for content creators and educators.
 
+- 🟡 [**Recapo.ai**](https://recapo.ai) — AI video repurposing platform that transforms long-form videos, movies, and podcasts into short viral clips, recaps, and vertical highlights.
+  `Freemium` · ⚠️ *Cloud-based rendering. Review copyright and fair use guidelines when processing third-party media.*
+  > 💡 **Use case:** Automatically extracting highlight clips, generating narrative recap scripts, and creating vertical shorts from long-form video footage.
+
 - 🔴 [**Play.ht**](https://play.ht) — Historical AI voice generation platform (text-to-speech, voice cloning).
   `Deprecated` · ⚠️ *Acquired by Meta in 2025 and commercial platform discontinued. Don't rely on it for new projects.*
   > 💡 **Use case:** Currently deprecated. Use alternatives like ElevenLabs or Speechify instead.
