@@ -457,6 +457,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Runs natively inside Fabric DW. Automatically identifies slow distributed queries and recommends Delta file pruning, liquid clustering, and query rewrites.*
   > 💡 **Use case:** Setting up automated daily warehouse diagnostics that inspect expensive queries and generate actionable tuning recommendations in T-SQL.
 
+- 🟢 [**Databricks Genie CLI**](https://docs.databricks.com/aws/en/dev-tools/cli/reference/genie-commands) — Official CLI suite for querying Databricks Lakehouse data and Genie AI agents straight from the terminal.
+  `Free` `Proprietary Core` · ✅ *Official Databricks CLI extension. Translates natural language questions to grounded SQL, returns terminal-formatted tables, and enables CI/CD evaluation runs.*
+  > 💡 **Use case:** Asking ad-hoc business data questions from the terminal, inspecting generated SQL on Gold-layer views, and automating scheduled Slack/cron metric reports.
+
 <p align="right"><a href="#-how-to-use-this-list">⬆ Back to top</a></p>
 
 ---
