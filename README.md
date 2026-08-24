@@ -263,6 +263,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Fully local when self-hosted. No data sent anywhere.*
   > 💡 **Use case:** Transcribing meetings, podcasts, and interviews locally with support for 99+ languages.
 
+- 🟢 [**Silero VAD**](https://github.com/snakers4/silero-vad) — Pre-trained enterprise-grade Voice Activity Detector with sub-millisecond processing times and tiny memory footprint.
+  `Free` `Open Source` · ✅ *Runs 100% locally with ONNX and PyTorch runtimes. Zero cloud dependency.*
+  > 💡 **Use case:** Detecting speech boundaries and handling barge-in/interruptions in real-time voice bots and audio processing pipelines.
+
 - 🟢 [**MoneyPrinterTurbo**](https://github.com/harry0703/MoneyPrinterTurbo) — AI-powered short-video generator that turns a topic into a finished HD video with script, B-roll, voiceover, subtitles, and music — fully automated.
   `Free` `Open Source` `Self-Hosted` · ✅ *Fully local pipeline. External calls only if you choose cloud LLM/TTS providers; Edge TTS + Pexels free tier = zero API cost.*
   > 💡 **Use case:** Batch-generating short-form content for TikTok, YouTube Shorts, and Instagram Reels without manual editing — ideal for content creators and educators.
@@ -448,6 +452,10 @@ Every tool in this list follows a consistent format:
 - 🟢 [**Redis**](https://redis.io) — In-memory data store used as database, cache, message broker, and streaming engine.
   `Free` `Open Source` · ✅ *Fully self-hostable.*
   > 💡 **Use case:** Caching, session management, real-time leaderboards, and pub/sub messaging in web apps.
+
+- 🟢 [**Fabric DW AI Query Doctor**](https://github.com/microsoft/fabric-samples) — Self-tuning telemetry and optimization pattern for Microsoft Fabric Data Warehouse using DMV query histories combined with native T-SQL AI functions (`AI.GENERATE`).
+  `Free` `Open Source` · ✅ *Runs natively inside Fabric DW. Automatically identifies slow distributed queries and recommends Delta file pruning, liquid clustering, and query rewrites.*
+  > 💡 **Use case:** Setting up automated daily warehouse diagnostics that inspect expensive queries and generate actionable tuning recommendations in T-SQL.
 
 <p align="right"><a href="#-how-to-use-this-list">⬆ Back to top</a></p>
 
