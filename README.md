@@ -173,6 +173,10 @@ Every tool in this list follows a consistent format:
   `Free` `Freemium` · ⚠️ *Indexes third-party community skills; review skill source code and tool permissions before running locally.*
   > 💡 **Use case:** Discovering and installing ready-made agent skills (git helpers, file managers, API tools) to extend AI assistant capabilities without coding them from scratch.
 
+- 🟢 [**Pipecat**](https://github.com/pipecat-ai/pipecat) — Open-source Python framework for building real-time, multimodal, and voice-first conversational AI agents with WebRTC/WebSocket transports.
+  `Free` `Open Source` · ✅ *Modular, stream-based frame pipeline. Vendor-neutral support for any STT, LLM, and TTS provider with instant interruption handling.*
+  > 💡 **Use case:** Orchestrating ultra-low-latency voice bots, multi-agent conversational handoffs, and real-time multimodal assistants across web, mobile, and hardware.
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
@@ -797,6 +801,10 @@ Every tool in this list follows a consistent format:
 - 🟡 [**RocketReach**](https://rocketreach.co) — Self-serve contact intelligence platform with 700M+ professional profiles and verified email lookups.
   `Freemium` · ⚠️ *Uses intent data and public profiles. Ensure compliance with local privacy laws (e.g., GDPR) when using contact info.*
   > 💡 **Use case:** Enabling sales professionals and recruiters to find verified contact data and prospect efficiently.
+
+- 🟢 [**Lead Genie**](https://github.com/krmaazha/lead-genie) — Tactical desktop lead management and audit generator for freelance web designers and agencies to find local clients and export PDF pitch reports.
+  `Free` `Open Source` · ✅ *Standalone desktop app (Windows/macOS). Runs locally with no recurring subscription fees or cloud tracking.*
+  > 💡 **Use case:** Finding local businesses with underperforming websites, generating automated SEO/performance audit reports, and exporting professional PDF pitches.
 
 ### Utilities & File Management
 
