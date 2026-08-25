@@ -95,6 +95,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *100% offline capable. No telemetry.*
   > 💡 **Use case:** Non-technical users who want to run local AI models without command-line knowledge.
 
+- 🟢 [**FreeToken**](https://github.com/FlashML-org/FreeToken) — Edge-native local inference engine by UC Berkeley optimized for MoE models, delivering 2–4x faster speeds and running massive models on consumer GPUs.
+  `Free` `Open Source` · ✅ *Fully local, offline, and Apache 2.0 licensed. Native OpenAI and Anthropic API compatibility.*
+  > 💡 **Use case:** Running large-scale MoE models (like Qwen, DeepSeek, and GLM) on consumer GPUs (e.g. 35B models on 8GB VRAM) and accelerating coding agents by reducing multi-turn prefill latency by over 5x.
+
 - 🟡 [**Perplexity AI**](https://perplexity.ai) — AI-powered research engine that provides answers with direct citations from the web.
   `Freemium` · ⚠️ *Queries are processed in the cloud. Search history may be retained.*
   > 💡 **Use case:** Research tasks where you need verifiable, cited answers — replaces traditional Google searching.
