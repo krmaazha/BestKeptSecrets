@@ -20,6 +20,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green?style=for-the-badge" alt="License"></a>
   <a href="https://github.com/krmaazha/BestKeptSecrets/commits"><img src="https://img.shields.io/github/last-commit/krmaazha/BestKeptSecrets?style=for-the-badge&color=orange" alt="Last Commit"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome"></a>
+  <a href="https://www.buymeacoffee.com/mariumkumail"><img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange?style=for-the-badge&logo=buymeacoffee" alt="Buy Me A Coffee"></a>
 </p>
 
 <p align="center">
