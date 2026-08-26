@@ -182,6 +182,22 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Modular, stream-based frame pipeline. Vendor-neutral support for any STT, LLM, and TTS provider with instant interruption handling.*
   > 💡 **Use case:** Orchestrating ultra-low-latency voice bots, multi-agent conversational handoffs, and real-time multimodal assistants across web, mobile, and hardware.
 
+- 🟢 [**Google ADK (Agent Development Kit)**](https://google.github.io/adk-docs/) — Google's official open-source, code-first framework (Python & Java) for building, evaluating, and deploying enterprise multi-agent systems with a built-in local developer UI.
+  `Free` `Open Source` · ✅ *Open-source framework supporting Gemini and multi-agent coordination with local testing UI.*
+  > 💡 **Use case:** Building and testing production-grade multi-agent architectures, memory pipelines, and tool-calling workflows.
+
+- 🟢 [**Pinokio**](https://pinokio.computer) — Autonomous AI browser and local operating system that installs, runs, and scripts any local AI model or application (ComfyUI, Stable Diffusion, Whisper, Ollama) with 1-click.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Runs 100% locally on your machine with automated environment and dependency management.*
+  > 💡 **Use case:** Installing and running complex local AI models, video generation pipelines, and autonomous desktop workflows without terminal setup.
+
+- 🟢 [**Agenta**](https://github.com/Agenta-AI/agenta) — Open-source LLMOps workspace for prompt engineering, testing, evaluation, and deployment of LLM applications with modular execution harnesses.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Self-hostable LLMOps platform for collaborative prompt optimization and CI/CD evaluation.*
+  > 💡 **Use case:** Prompt versioning, golden dataset evaluation, and observability for production LLM apps.
+
+- 🟢 [**Agency Agents**](https://github.com/msitarzewski/agency-agents) — Curated collection of 140+ specialized AI agent personas and system prompts for Claude Code, Cursor, Windsurf, and Aider.
+  `Free` `Open Source` · ✅ *Markdown-based agent role specifications with defined deliverables, workflows, and success metrics.*
+  > 💡 **Use case:** Transforming generic AI coding assistants into specialized experts (frontend architect, security auditor, growth hacker).
+
 ### AI Code Assistants
 
 - 🟡 [**GitHub Copilot**](https://github.com/features/copilot) — AI pair programmer integrated into VS Code, JetBrains, and Neovim; suggests entire functions in real-time.
@@ -211,6 +227,14 @@ Every tool in this list follows a consistent format:
 - 🟢 [**free-claude-code**](https://github.com/Alishahryar1/free-claude-code) — Proxy routing tool that routes Claude Code and Codex CLI traffic through free backends.
   `Free` `Open Source` `Self-Hosted` · ✅ *Local proxy tool that routes CLI requests to free model backends.*
   > 💡 **Use case:** Running Claude Code and Codex terminal workflows using free backends like OpenRouter free models, NVIDIA NIM, or local Ollama.
+
+- 🟢 [**codebase-memory-mcp**](https://github.com/DeusData/codebase-memory-mcp) — High-performance MCP server that indexes codebases into a persistent Tree-sitter knowledge graph in SQLite for sub-millisecond agent structural queries.
+  `Free` `Open Source` · ✅ *Local MCP server that eliminates repetitive file scanning and slashes agent token usage by up to 99%.*
+  > 💡 **Use case:** Providing Claude Code, Cursor, and Zed with instant dependency graphs, call hierarchies, and symbol definitions across large codebases.
+
+- 🟢 [**Graft**](https://github.com/nanonets/graft) — Codebase structural mapping and context optimization tool that generates compact Markdown dependency graphs tailored for LLM context windows.
+  `Free` `Open Source` · ✅ *Optimizes repository context to prevent token bloat during multi-file agent refactoring.*
+  > 💡 **Use case:** Creating efficient codebase maps so AI agents can navigate large repos accurately without reading whole files.
 
 ### AI Image Generation
 
@@ -279,6 +303,10 @@ Every tool in this list follows a consistent format:
 - 🟡 [**Recapo.ai**](https://recapo.ai) — AI video repurposing platform that transforms long-form videos, movies, and podcasts into short viral clips, recaps, and vertical highlights.
   `Freemium` · ⚠️ *Cloud-based rendering. Review copyright and fair use guidelines when processing third-party media.*
   > 💡 **Use case:** Automatically extracting highlight clips, generating narrative recap scripts, and creating vertical shorts from long-form video footage.
+
+- 🟢 [**OpenMontage**](https://github.com/calesthio/OpenMontage) — Open-source agentic video production system that orchestrates AI agents to handle topic research, scriptwriting, voiceover, asset generation, and composition.
+  `Free` `Open Source` · ✅ *Modular agentic video creation architecture with 12 production pipelines and 50+ integrated tools.*
+  > 💡 **Use case:** Automating full-lifecycle video creation, research-to-video pipelines, and high-volume marketing video production.
 
 - 🔴 [**Play.ht**](https://play.ht) — Historical AI voice generation platform (text-to-speech, voice cloning).
   `Deprecated` · ⚠️ *Acquired by Meta in 2025 and commercial platform discontinued. Don't rely on it for new projects.*
@@ -500,6 +528,18 @@ Every tool in this list follows a consistent format:
   `Freemium` · ⚠️ *Cloud-based workspace. Data stored on Whimsical's servers.*
   > 💡 **Use case:** Rapid wireframing and flowcharting during the early stages of product design.
 
+- 🟢 [**Aceternity UI**](https://ui.aceternity.com) — Copy-paste React component library built with Tailwind CSS and Motion, featuring production-ready 3D cards, spotlight effects, and glowing gradients.
+  `Free` `Open Source` · ✅ *Zero package lock-in; copy component source code directly into your React/Next.js codebase.*
+  > 💡 **Use case:** Crafting high-converting SaaS landing pages and modern dark-mode interfaces with complex interactive animations.
+
+- 🟢 [**Designerprompts.dev**](https://designerprompts.dev) — Curated prompt engineering directory and design taxonomy for generating high-converting UI/UX layouts with AI design tools.
+  `Free` · ⚠️ *Web directory of curated design prompts and style keywords.*
+  > 💡 **Use case:** Sourcing precise design aesthetic keywords (Bento grid, Monochrome, Glassmorphism, Brutalism) for v0, Cursor, Bolt.new, and Midjourney.
+
+- 🟢 [**Coconut UI**](https://coconut-ui.com) — Modern accessible component library featuring spring-based motion primitives, responsive design tokens, and spatial 3D UI capabilities.
+  `Free` `Open Source` · ✅ *Clean UI components with built-in tactile spring animations and WebXR/Three.js spatial layouts.*
+  > 💡 **Use case:** Building fluid interactive web interfaces and spatial 3D user interfaces.
+
 ### Image Editing & Graphics
 
 - 🟢 [**GIMP**](https://gimp.org) — The GNU Image Manipulation Program — a free, powerful alternative to Photoshop.
@@ -565,6 +605,14 @@ Every tool in this list follows a consistent format:
 - 🟢 [**LottieFiles**](https://lottiefiles.com) — Platform for lightweight, scalable JSON-based animations using the Lottie format.
   `Freemium` · ⚠️ *Cloud-based library. Lottie format itself is open.*
   > 💡 **Use case:** Adding smooth, lightweight animations to web and mobile apps without heavy video files.
+
+- 🟢 [**Motion.dev**](https://motion.dev) — Production-ready motion and gesture library for React and JavaScript (the evolution of Framer Motion).
+  `Free` `Open Source` · ✅ *Hardware-accelerated web animation engine with declarative syntax and spring physics.*
+  > 💡 **Use case:** Creating fluid UI micro-interactions, layout animations, scroll-linked effects, and drag-and-drop gestures.
+
+- 🟢 [**Animaster Library**](https://animasterlibrary.com) — Library of 200+ pre-built animated web components, interactive widgets, and website templates for rapid motion design.
+  `Free` `Freemium` · ⚠️ *Web-based component collection for Tailwind, Framer, and Webflow.*
+  > 💡 **Use case:** Dropping pre-animated hero sections, hover effects, and interactive UI blocks into web projects without custom CSS animations.
 
 <p align="right"><a href="#-how-to-use-this-list">⬆ Back to top</a></p>
 
@@ -910,6 +958,10 @@ Every tool in this list follows a consistent format:
 - 🟢 [**Huginn**](https://github.com/huginn/huginn) — Open-source system for building agents that automate tasks — like a self-hosted IFTTT.
   `Free` `Open Source` `Self-Hosted` · ✅ *Fully self-hosted. Complete control over data.*
   > 💡 **Use case:** Tech-savvy users wanting fully self-hosted automation agents for web scraping, alerts, and data processing.
+
+- 🟢 [**Fatesnail**](https://github.com/XBuilderLAB/cheat-on-content) — Content intelligence and analytics automation utility for auditing engagement patterns and predicting algorithmic reach.
+  `Free` `Open Source` · ✅ *Self-hostable creator tooling for algorithmic performance auditing and distribution analytics.*
+  > 💡 **Use case:** Analyzing audience retention patterns, content engagement metrics, and optimizing publishing cadence.
 
 ### Communication & Collaboration
 
