@@ -20,6 +20,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-green?style=for-the-badge" alt="License"></a>
   <a href="https://github.com/krmaazha/BestKeptSecrets/commits"><img src="https://img.shields.io/github/last-commit/krmaazha/BestKeptSecrets?style=for-the-badge&color=orange" alt="Last Commit"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome"></a>
+  <a href="#-support--sponsor"><img src="https://img.shields.io/badge/Donate-Binance%20Pay-F0B90B?style=for-the-badge&logo=binance&logoColor=black" alt="Donate via Binance Pay"></a>
 </p>
 
 <p align="center">
@@ -2380,4 +2381,25 @@ This section contains a massive backlog of resources currently being categorized
 - 🟡 [**sequor (YAML API)**](https://github.com/sequor-io/sequor) — API integration builder and orchestrator that simplifies connecting multiple APIs and services. Uses YAML-based configuration to define integration flows, transformations, and data routing.
   `Uncategorized` · ⚠️ *Review before use.*
   > 💡 **Use case:** Enable developers and integration specialists to build and manage complex API integrations quickly and maintainably without extensive custom code.
+
+---
+
+## 💖 Support & Sponsor
+
+If you find **Best Kept Secrets** useful, consider supporting its continuous maintenance and additions!
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Binance%20Pay-1178102684-F0B90B?style=for-the-badge&logo=binance&logoColor=black" alt="Binance Pay ID: 1178102684">
+</p>
+
+### 🟡 Binance Pay
+- **Pay ID:** `1178102684`
+- **How to send a tip:**
+  1. Open the **Binance App**.
+  2. Tap the **Pay** icon (top right or in services).
+  3. Select **Send** $\rightarrow$ choose **Pay ID**.
+  4. Enter `1178102684` and specify any amount (USDT, BUSD, BNB, etc.).
+
+---
+
 
