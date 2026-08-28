@@ -194,6 +194,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` `Self-Hosted` · ✅ *Self-hostable LLMOps platform for collaborative prompt optimization and CI/CD evaluation.*
   > 💡 **Use case:** Prompt versioning, golden dataset evaluation, and observability for production LLM apps.
 
+- 🟢 [**LLMRouter**](https://github.com/ulab-uiuc/LLMRouter) — Unified modular framework for dynamic LLM routing (16+ routing strategies) to optimize cost and performance per query.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Open-source library with OpenAI-compatible API server. Fully self-hostable.*
+  > 💡 **Use case:** Reducing LLM inference costs and latency by intelligently routing simple queries to smaller/local models and complex queries to frontier models (GPT-4o/Claude 3.5).
+
 - 🟢 [**Agency Agents**](https://github.com/msitarzewski/agency-agents) — Curated collection of 140+ specialized AI agent personas and system prompts for Claude Code, Cursor, Windsurf, and Aider.
   `Free` `Open Source` · ✅ *Markdown-based agent role specifications with defined deliverables, workflows, and success metrics.*
   > 💡 **Use case:** Transforming generic AI coding assistants into specialized experts (frontend architect, security auditor, growth hacker).
