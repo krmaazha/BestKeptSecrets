@@ -198,6 +198,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` `Self-Hosted` · ✅ *Open-source library with OpenAI-compatible API server. Fully self-hostable.*
   > 💡 **Use case:** Reducing LLM inference costs and latency by intelligently routing simple queries to smaller/local models and complex queries to frontier models (GPT-4o/Claude 3.5).
 
+- 🟢 [**urduflow**](https://github.com/GurusGeek/urduflow) — Zero-dependency Python toolkit for Urdu-aware LLM and RAG pipelines.
+  `Free` `Open Source` · ✅ *Fully open-source, local processing. Integrates with LangChain & LlamaIndex.*
+  > 💡 **Use case:** Solving Urdu RAG failures by normalizing Arabic/Urdu script variations, handling smart Urdu chunking (۔ ؟ ؛), and code-switch routing for mixed English/Urdu/Roman Urdu queries.
+
 - 🟢 [**Agency Agents**](https://github.com/msitarzewski/agency-agents) — Curated collection of 140+ specialized AI agent personas and system prompts for Claude Code, Cursor, Windsurf, and Aider.
   `Free` `Open Source` · ✅ *Markdown-based agent role specifications with defined deliverables, workflows, and success metrics.*
   > 💡 **Use case:** Transforming generic AI coding assistants into specialized experts (frontend architect, security auditor, growth hacker).
