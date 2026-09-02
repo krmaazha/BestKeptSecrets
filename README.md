@@ -166,9 +166,9 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Open source framework with built-in security layer (sandbox, AST checks).*
   > 💡 **Use case:** Building AI agents that reason through computation rather than text, allowing them to be tested, traced, refactored, and version-controlled like normal software.
 
-- 🟢 [**Headroom**](https://github.com/chopratejas/headroom) — Open-source context optimization layer for LLM applications that compresses tool outputs, logs, RAG chunks, and history with reversible safety nets.
-  `Free` `Open Source` `Self-Hosted` · ✅ *Fully local-first context compression. Data stays on-device unless using cloud backends.*
-  > 💡 **Use case:** Reducing LLM token consumption by 60–95% across agentic workflows, coding assistants, and multi-turn conversations without sacrificing accuracy.
+- 🟢 [**Headroom**](https://github.com/headroomlabs-ai/headroom) — Open-source context optimization layer that compresses tool outputs, logs, files, and RAG chunks before they reach the LLM. Features reversible (lossless) local caching.
+  `Free` `Open Source` `Self-Hosted` · ✅ *Fully local-first context compression. Works as a library, proxy, MCP server, or wrapper for CLI agents (Claude Code, Cursor, etc.).*
+  > 💡 **Use case:** Reducing LLM token bloat by 20-95% (saving cost and improving latency) without sacrificing accuracy by compressing context before sending it to the model.
 
 - 🟢 [**awesome-llm-apps**](https://github.com/Shubhamsaboo/awesome-llm-apps) — Curated collection of 100+ production-ready AI applications, multi-agent systems, and RAG starter templates across major LLM providers.
   `Free` `Open Source` · ✅ *Open-source code cookbook; runs locally using your own model API keys.*
