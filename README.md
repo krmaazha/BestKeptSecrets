@@ -2430,9 +2430,6 @@ This section contains a massive backlog of resources currently being categorized
   `Free` · ⚠️ *Review before use.*
   > 💡 **Use case:** Enable organizations to provide AI-powered code assistance to developers while maintaining complete control over data and privacy.
 
-- 🟡 [**Kiro (Agentic IDE)**](https://github.com/kiro-ide/kiro) — Agentic IDE that embeds AI agents into the development workflow. Agents can understand codebases, suggest refactors, automate repetitive tasks, debug, and assist with architecture decisions.
-  `Uncategorized` · ⚠️ *Review before use.*
-  > 💡 **Use case:** Provide developers with AI agents that actively assist in the software development lifecycle—writing, reviewing, debugging, and refactoring code within their familiar IDE environment.
 
 - 🟡 [**MoneyPrinter V2**](https://github.com/FujiwaraChoki/MoneyPrinterV2) — Automated content creation and social media posting system. Creates and publishes videos, blog posts, or social media content automatically using AI. Designed for affiliate marketing and content creation at scale.
   `Uncategorized` · ⚠️ *Review before use.*
