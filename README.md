@@ -909,6 +909,10 @@ Every tool in this list follows a consistent format:
   `Free` `Open Source` · ✅ *Privacy-focused design with no central server tracking.*
   > 💡 **Use case:** Making torrent discovery easier and safer by bypassing ad-filled websites via a streamlined terminal interface.
 
+- 🟢 [**My Dailies**](https://bestdaily.games/my-daily/) — A personal checklist for daily browser puzzles that resets at local midnight.
+  `Free` `Web app` · ✅ *The checklist and completion marks stay in the browser. No account required.*
+  > 💡 **Use case:** Keep a Wordle, geography, and logic puzzle routine in one place and export the list as a backup.
+
 ### Note-Taking & Knowledge Management
 
 - 🟢 [**Obsidian**](https://obsidian.md) — Markdown-based knowledge base with bidirectional linking, graph view, and 1,000+ plugins.
